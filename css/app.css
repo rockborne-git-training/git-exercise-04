@@ -1,0 +1,14 @@
+h1 {
+    font-size: 36px; /* Font size */
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333; /* Text color */
+    text-align: center; /* Text alignment */
+    margin: 20px 0; /* Margin above and below the h1 */
+}
+
+.intro-text {
+    text-align: center;
+    padding: 0 300px;
+}
