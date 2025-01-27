@@ -18,7 +18,7 @@
 
     <div class="images-wrapper">
         <div class="team-images-container">
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('John Doe', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 1.webp')">
                 <img src="images/Website Headshot 1.webp" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> John Doe</p>
@@ -27,7 +27,7 @@
     
             </div>
     
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Colin Smith', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 2.webp')">
                 <img src="images/Website Headshot 2.webp" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> Colin Smith</p>
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Jack Fawn', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 3.jpg')">
                 <img src="images/Website Headshot 3.jpg" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> Jack Fawn</p>
@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Chris Crew', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 4.webp')">
                 <img src="images/Website Headshot 4.webp" alt="Headshot of a business woman">
                 <div class="info">
                     <p class="name"> Chris Crew</p>
@@ -55,7 +55,7 @@
 
     <div class="images-wrapper">
         <div class="team-images-container">
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('John Doe', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 1.webp')">
                 <img src="images/Website Headshot 1.webp" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> John Doe</p>
@@ -64,7 +64,7 @@
     
             </div>
     
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Colin Smith', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 2.webp')">
                 <img src="images/Website Headshot 2.webp" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> Colin Smith</p>
@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Jack Fawn', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 3.jpg')">
                 <img src="images/Website Headshot 3.jpg" alt="Headshot of a business man">
                 <div class="info">
                     <p class="name"> Jack Fawn</p>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="team-member">
+            <div class="team-member" onclick="openModal('Chris Crew', 'DATA ANALYST', 'Your description goes here.', 'images/Website Headshot 4.webp')">
                 <img src="images/Website Headshot 4.webp" alt="Headshot of a business woman">
                 <div class="info">
                     <p class="name"> Chris Crew</p>
@@ -88,7 +88,29 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body">
+                <!-- Left side: Image and Name -->
+                <div class="modal-left">
+                    <img id="modal-img" class="modal-img" src="" alt="Team Member Image">
+                    <div class="modal-info">
+                        <p id="modal-name" class="modal-name"></p>
+                        <p id="modal-position" class="modal-position"></p>
+                    </div>
+                </div>
+                <!-- Right side: Description -->
+                <div class="modal-right">
+                    <p id="modal-description" class="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <script src="javascript/app.js"></script>
 </body>
