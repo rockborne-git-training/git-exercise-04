@@ -1,16 +1,44 @@
 body {
-    font-family: "Libre Baskerville", serif;
+    /*font-family: "Libre Baskerville", serif;*/
     font-style: normal;
+    font-family: Arial, sans-serif; 
+}
+
+.navigation-bar {
+    overflow: hidden;
+    position: fixed;
+    background-color: #0066CC;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.navigation-bar img {
+    width: 90px;
+    height: auto;
+    padding-left: 25px;
+    padding-top: 6px;
+}
+
+.navigation-bar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 15px;
+    /*text-decoration: none;*/
 }
 
 h1 {
-    font-size: 20px; 
-    font-family: "Libre Baskerville", serif;
+    font-size: 17px; 
+    /*font-family: "Libre Baskerville", serif;*/
     font-weight: 600;
     font-style: normal;
     color: #333333;
     text-align: left; 
-    margin: 20px 150px; 
+    margin: 70px 20px 20px 150px; 
 }
 
 .intro-text {
@@ -59,6 +87,7 @@ h1 {
     font-size: 1.1em;
     font-weight: bold;
     margin: 0;
+    color: #0066CC;
 }
 
 .position {
