@@ -1,6 +1,6 @@
 // Function to open the modal and display the information
 function openModal(name, position, description, imgSrc) {
-    document.getElementById("myModal").style.display = "block";  // Show modal
+    document.getElementById("myModal").style.display = "flex";  // Show modal
     document.getElementById("modal-name").textContent = name;
     document.getElementById("modal-position").textContent = position;
     document.getElementById("modal-description").textContent = description;
