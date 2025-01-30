@@ -4,6 +4,75 @@ body {
     font-family: Arial, sans-serif; 
 }
 
+.home-page .page-header{
+        background-image: url('../images/home-page-banner.jpg');
+        background-position: 50% 60%;
+        background-size: cover;
+        padding: 1em;
+        margin-bottom: 2rem;
+        min-height: 40vh;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+}
+
+.home-page{
+    background-color: #F0F4F5;
+}
+
+.home-page-text {
+    font-size: 20px;
+    margin: 220px 30px 40px 30px;
+    font-weight: 600;
+    color: #0066CC;
+}
+
+.home-page-task-two {
+    font-size: 20px;
+    margin: 40px 30px 40px 30px;
+    font-weight: 600;
+    color: #0066CC;
+}
+
+.overlay-box {
+    width: 70%;
+    max-width: 900px;
+    background-color: #0066CC;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.overlay-box h2 {
+    color: white;
+    text-align: left;
+    font-size: 75px;
+    margin: 10px 0;
+}
+
+.overlay-box p {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*.task-box {
+    width: 70%;
+    max-width: 900px; 
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    position: absolute;
+    top: 60%; 
+    left: 40%; 
+    transform: translate(-50%, -30%);
+}*/
+
 .navigation-bar {
     overflow: hidden;
     position: fixed;
@@ -12,6 +81,7 @@ body {
     top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    z-index: 999;
 
 }
 
