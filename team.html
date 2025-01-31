@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navigation-bar">
+        <img src="images/nhs-reverse-logo.png">
+        <a class="active" href="#contact">Contact</a>
+        <a class="active" href="team.html">Meet The Team</a>
+        <a class="active" href="#about">About</a>
+        <a class="active" href="index.html">Home</a>
+    </div>
+
+    <h1>MEET THE TEAM</h1>
+    <p class="intro-text">
+        Meet the individuals behind the team.
+    </p>
+
+
+    <div class="images-wrapper">
+        <div class="team-images-container">
+            <div class="team-member" onclick="openModal('John Doe', 'DATA ANALYST', 'Hi, my name is John. I am a data analyst with a knack for turning raw numbers into meaningful insights. By day, I dive into datatsets, uncovering trends and patterns that help businesses make smart decisions. But when I am not working with data, you will probably find me in my garaage, restoring vintage motorcycles.', 'images/Website Headshot 1.webp')">
+                <img src="images/Website Headshot 1.webp" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> John Doe</p>
+                    <p class="position">DATA ANALYST</p>
+                </div>
+    
+            </div>
+    
+            <div class="team-member" onclick="openModal('Colin Smith', 'DATA ENGINEER', 'I am Colin, a data engineer who specializes in building efficient data pipelines and optimizing database performance. I enjoy solving complex problems and ensuring that data flows smoothly across systems. When I am not working with big data, I spend my time hiking in the mountains, exploring new trails, and capturing scenic landscapes with my camera.', 'images/Website Headshot 2.webp')">
+                <img src="images/Website Headshot 2.webp" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> Colin Smith</p>
+                    <p class="position">DATA ENGINEER</p>
+                </div>
+            </div>
+
+            <div class="team-member" onclick="openModal('Jack Fawn', 'DATA ANALYST', 'I am Jack, a data analyst who loves uncovering hidden insights in complex datasets. My job involves transforming raw data into clear, actionable information that drives business decisions. Outside of work, I am passionate about photography. I enjoy capturing everyday moments and turning them into meaningful visuals that tell a story.', 'images/Website Headshot 3.jpg')">
+                <img src="images/Website Headshot 3.jpg" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> Jack Fawn</p>
+                    <p class="position">DATA ANALYST</p>
+                </div>
+            </div>
+
+            <div class="team-member" onclick="openModal('Chris Crew', 'DATA ENGINEER', 'I am Chris, a data engineer who focuses on building scalable systems to manage and process large volumes of data. My goal is to ensure that data infrastructure is efficient, reliable, and ready for any analytical task. When I am not working with data, I love experimenting with cooking, trying new recipes, and sharing meals with friends and family.', 'images/Website Headshot 4.webp')">
+                <img src="images/Website Headshot 4.webp" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> Chris Crew</p>
+                    <p class="position">DATA ENGINEER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="images-wrapper">
+        <div class="team-images-container">
+            <div class="team-member" onclick="openModal('John Doe', 'DATA ANALYST', 'Hi, my name is John. I am a data analyst with a knack for turning raw numbers into meaningful insights. By day, I dive into datatsets, uncovering trends and patterns that help businesses make smart decisions. But when I am not working with data, you will probably find me in my garaage, restoring vintage motorcycles.', 'images/Website Headshot 1.webp')">
+                <img src="images/Website Headshot 1.webp" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> John Doe</p>
+                    <p class="position">DATA ANALYST</p>
+                </div>
+    
+            </div>
+    
+            <div class="team-member" onclick="openModal('Colin Smith', 'DATA ENGINEER', 'I am Colin, a data engineer who specializes in building efficient data pipelines and optimizing database performance. I enjoy solving complex problems and ensuring that data flows smoothly across systems. When I am not working with big data, I spend my time hiking in the mountains, exploring new trails, and capturing scenic landscapes with my camera.', 'images/Website Headshot 2.webp')">
+                <img src="images/Website Headshot 2.webp" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> Colin Smith</p>
+                    <p class="position">DATA ENGINEER</p>
+                </div>
+            </div>
+
+            <div class="team-member" onclick="openModal('Jack Fawn', 'DATA ANALYST', 'I am Jack, a data analyst who loves uncovering hidden insights in complex datasets. My job involves transforming raw data into clear, actionable information that drives business decisions. Outside of work, I am passionate about photography. I enjoy capturing everyday moments and turning them into meaningful visuals that tell a story.', 'images/Website Headshot 3.jpg')">
+                <img src="images/Website Headshot 3.jpg" alt="Headshot of a business man">
+                <div class="info">
+                    <p class="name"> Jack Fawn</p>
+                    <p class="position">DATA ANALYST</p>
+                </div>
+            </div>
+
+            <div class="team-member" onclick="openModal('Chris Crew', 'DATA ENGINEER', 'I am Chris, a data engineer who focuses on building scalable systems to manage and process large volumes of data. My goal is to ensure that data infrastructure is efficient, reliable, and ready for any analytical task. When I am not working with data, I love experimenting with cooking, trying new recipes, and sharing meals with friends and family.', 'images/Website Headshot 4.webp')">
+                <img src="images/Website Headshot 4.webp" alt="Headshot of a business woman">
+                <div class="info">
+                    <p class="name"> Chris Crew</p>
+                    <p class="position">DATA ENGINEER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body">
+                <!-- Left side: Image and Name -->
+                <div class="modal-left">
+                    <img id="modal-img" class="modal-img" src="" alt="Team Member Image">
+                    <div class="modal-info">
+                        <p id="modal-name" class="modal-name"></p>
+                        <p id="modal-position" class="modal-position"></p>
+                    </div>
+                </div>
+                <!-- Right side: Description -->
+                <div class="modal-right">
+                    <p id="modal-description" class="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="javascript/app.js"></script>
+</body>
+</html>
