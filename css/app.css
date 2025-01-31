@@ -1,5 +1,4 @@
 body {
-    /*font-family: "Libre Baskerville", serif;*/
     font-style: normal;
     font-family: Arial, sans-serif; 
     background-color: #F0F4F5;
@@ -20,7 +19,7 @@ body {
 .contact-heading h1{
     font-size: 65px;
     text-align: left;
-    margin: 80px 0px 20px 50px;;
+    margin: 80px 0px 20px 50px;
 
 }
 
@@ -35,6 +34,26 @@ body {
     text-align: left;
     margin: 70px 50px;
     font-weight: 600;
+}
+
+
+.about-heading h1{
+    font-size: 65px;
+    text-align: left;
+    margin: 80px 0px 0px 50px;
+
+}
+
+.about-heading p{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 50px;
+}
+
+.about-heading li{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 50px;
 }
 
 .home-page-text {
@@ -77,19 +96,9 @@ body {
     font-size: 20px;
 }
 
-/*.task-box {
-    width: 70%;
-    max-width: 900px; 
-    height: 500px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    position: absolute;
-    top: 60%; 
-    left: 40%; 
-    transform: translate(-50%, -30%);
-}*/
-
+.about-content {
+    margin-top: 100px;
+}
 .navigation-bar {
     overflow: hidden;
     position: fixed;
