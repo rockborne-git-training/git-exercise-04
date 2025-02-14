@@ -192,42 +192,41 @@ h1 {
     margin: 2px 0 0;
 }
 
-/* Modal Background */
+
 .modal {
-    display: none;  /* Initially hidden */
+    display: none; 
     position: fixed;
-    z-index: 1000;     /* Ensure it’s on top */
+    z-index: 1000;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);  /* Dimmed background */
+    background-color: rgba(0, 0, 0, 0.4); 
     justify-content: center;
-    align-items: center;  /* Center the modal */
+    align-items: center;
 }
 
-/* Modal Content */
+
 .modal-content {
     background-color: #fefefe;
     padding: 20px;
     border: 1px solid #888;
-    width: 60%;       /* Set width of the modal content */
-    max-width: 800px; /* Maximum width to prevent overflow on large screens */
+    width: 60%;
+    max-width: 800px;
     height: auto;
-    max-height: 80vh;  /* Prevent overflow vertically */
+    max-height: 80vh;
     overflow: auto;
     display: flex;
     flex-direction: row;
-    position: relative;  /* To position the close button correctly */
+    position: relative; 
 }
 
-/* Close Button */
 .close {
     color: #aaa;
     font-size: 28px;
     font-weight: bold;
-    position: absolute;  /* Position it at the top right of modal */
+    position: absolute; 
     top: 10px;
     right: 10px;
     cursor: pointer;
@@ -240,26 +239,26 @@ h1 {
     cursor: pointer;
 }
 
-/* Modal Body */
+
 .modal-body {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Space between left and right content */
+    align-items: center; 
+    justify-content: space-between; 
     padding: 20px;
 }
 
-/* Left side (Image + Name) */
+
 .modal-left {
     display: flex;
-    flex-direction: column;  /* Stack image and text vertically */
-    align-items: left;     /* Center the content */
-    width: 30%;              /* Adjust the width of the left section */
+    flex-direction: column;  
+    align-items: left;    
+    width: 30%;             
 }
 
 .modal-img {
-    width: 100%;           /* Set the width of the image */
-    height: auto;           /* Maintain aspect ratio */     /* Make the image round */
-    margin-bottom: 10px;    /* Space between image and name/position */
+    width: 100%;          
+    height: auto;           
+    margin-bottom: 10px;   
 }
 
 .modal-info {
@@ -281,10 +280,10 @@ h1 {
     text-align: left;
 }
 
-/* Right side (Description) */
+
 .modal-right {
-    width: 60%;             /* Set width for description area */
-    padding-left: 50px;     /* Add space between image and description */
+    width: 60%;         
+    padding-left: 50px;
 }
 
 .modal-description {
